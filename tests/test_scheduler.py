@@ -4,7 +4,7 @@ import unittest
 from unittest.mock import patch
 
 from config_manager import ConfigManager
-from src.scheduler import Scheduler
+from scheduler import Scheduler
 from sync_service import SyncService
 
 
