@@ -10,6 +10,7 @@ class APIHandler:
 
     def call_api(self, url, params):
         try:
+            print(url)
             response = requests.get(url, params=params)
             response.raise_for_status()
             return response.json()
